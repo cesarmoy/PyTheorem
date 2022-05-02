@@ -1,0 +1,30 @@
+---
+title: "Hypotenuse"
+author: "Cesar Moy"
+date: "5/1/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Final R programming Project
+
+```{r}
+pytha <- function(x,y){
+  #We find the hypotenuse by square rooting X + y square
+  hypotenuse <- sqrt(x^2 + y^2)
+  return(hypotenuse)
+}
+```
+
+## Example: if we have two side of a triangle 10 and 15
+
+Using the function we get the result of the hypotenuse:
+
+```{r}
+pytha(10,15)
+```
+
+
