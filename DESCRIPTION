@@ -1,0 +1,11 @@
+Package: Theorem
+Type: Package
+Title: Finds the hypotenuse of a triangle
+Version: 0.1.0
+Author: Cesar Moy [aut]
+Maintainer: The package maintainer <cmoy@usf.edu>
+Description: The package takes to side values of a triangle and uses the pythagoras theorem to find the hypotenuse angle. It helps to quickly do a mathematical operation that would require a formula. This package allows us just to simple imput to variable and the package will do the math.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
